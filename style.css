@@ -1,0 +1,64 @@
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  background: url(img/bg2.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  font-family: "Open Sans", sans-serif;
+  color: #ab0404;
+  font-size: 1rem;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.promo-text a {
+  text-decoration: none;
+  display: block;
+  color: #333;
+}
+
+.root-nav {
+  width: 200px;
+}
+
+.root-nav li {
+  list-style-type: none;
+  background: #2e2828;
+  padding-left: 0;
+  position: relative;
+}
+
+.root-nav a,
+.root-nav span {
+  text-decoration: none;
+  color: #EEE;
+  display: block;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.root-nav ul {
+  display: none;
+  position: absolute;
+  right: -150px;
+  top: 0;
+  width: 150px;
+}
+
+ul.sub-menu-active {
+  display: block;
+}
+
+span.sub-menu-active-span{
+  background: #ab0404;
+}
